@@ -1,0 +1,5 @@
+Built at 2020-06-23 22:05:34
+newlib            53352fb13f8d52559e7672eb1aa999187661b764
+pthread-embedded  a981bc14afdfb52a0fbb173aa950968e1f279b34
+headers      d00fbec660312fd9f188664c67c4e3c091fc8d49
+toolchain    deff7b6ce03ec0bf8ece32ffdbf8f6163d4205a1

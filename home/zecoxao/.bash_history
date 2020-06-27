@@ -13,3 +13,10 @@ rm -rf /usr/local/vitasdk/
 ./install-all.sh 
 . ~/.bashrc 
 ./install-all.sh 
+pacman -Su make git cmake tar mingw64/mingw-w64-x86_64-libwinpthread-git python patch
+. ~/.bashrc
+git clone https://github.com/dolcesdk/ddpm
+cd ddpm
+./bootstrap-dolcesdk.sh
+./install-all.sh
+ls

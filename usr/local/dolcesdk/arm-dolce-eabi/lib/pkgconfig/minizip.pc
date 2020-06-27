@@ -1,0 +1,13 @@
+prefix=/opt/dolcesdk/arm-dolce-eabi
+exec_prefix=/opt/dolcesdk/arm-dolce-eabi
+libdir=/opt/dolcesdk/arm-dolce-eabi/lib
+sharedlibdir=/opt/dolcesdk/arm-dolce-eabi/lib
+includedir=/opt/dolcesdk/arm-dolce-eabi/include
+
+Name: minizip
+Description: Minizip zip file manipulation library
+Version: 2.9.1
+
+Requires: zlib
+Libs: -L${libdir} -L${sharedlibdir} -lminizip
+Cflags: -I${includedir}

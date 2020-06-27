@@ -188,3 +188,5 @@
 # }
 # 
 # alias cd=cd_func
+export DOLCESDK=/usr/local/dolcesdk
+export PATH=$DOLCESDK/bin:$PATH # add dolcesdk tool to $PATH

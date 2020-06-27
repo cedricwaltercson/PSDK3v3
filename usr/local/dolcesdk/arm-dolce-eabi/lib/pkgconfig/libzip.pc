@@ -1,0 +1,13 @@
+prefix=/opt/dolcesdk/arm-dolce-eabi
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+zipcmp=/opt/dolcesdk/arm-dolce-eabi/bin/zipcmp
+
+Name: libzip
+Description: library for handling zip archives
+Version: 1.4.0
+Libs:  -L${libdir} -lzip  -lbz2 -lz
+Cflags: -I${includedir}
+

@@ -168,3 +168,15 @@
 [2019-07-16 21:29] [ALPM] installed mpdecimal (2.4.2-2)
 [2019-07-16 21:30] [ALPM] installed python (3.7.3-1)
 [2019-07-16 21:30] [ALPM] transaction completed
+[2020-06-27 20:52] [PACMAN] Running 'pacman -Su make git cmake tar mingw64/mingw-w64-x86_64-libwinpthread-git python patch'
+[2020-06-27 20:52] [PACMAN] starting core system upgrade
+[2020-06-27 20:52] [PACMAN] starting full system upgrade
+[2020-06-27 20:52] [ALPM] transaction started
+[2020-06-27 20:52] [ALPM] reinstalled make (4.2.1-1)
+[2020-06-27 20:52] [ALPM] reinstalled git (2.21.0-1)
+[2020-06-27 20:52] [ALPM] reinstalled cmake (3.14.3-1)
+[2020-06-27 20:52] [ALPM] reinstalled tar (1.32-1)
+[2020-06-27 20:52] [ALPM] reinstalled mingw-w64-x86_64-libwinpthread-git (7.0.0.5447.a2d94c81-1)
+[2020-06-27 20:54] [ALPM] reinstalled python (3.7.3-1)
+[2020-06-27 20:54] [ALPM] installed patch (2.7.6-1)
+[2020-06-27 20:54] [ALPM] transaction completed

@@ -1,0 +1,12 @@
+prefix=/opt/dolcesdk/arm-dolce-eabi
+exec_prefix=/opt/dolcesdk/arm-dolce-eabi
+libdir=/opt/dolcesdk/arm-dolce-eabi/lib
+includedir=/opt/dolcesdk/arm-dolce-eabi/include
+
+Name: libmodplug
+Description: The ModPlug mod file playing library.
+Version: 0.8.8.5
+Requires: 
+Libs: -L/opt/dolcesdk/arm-dolce-eabi/lib -lmodplug 
+Libs.private: -lstdc++ -lm
+Cflags: -I/opt/dolcesdk/arm-dolce-eabi/include

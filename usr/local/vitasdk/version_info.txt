@@ -1,6 +1,0 @@
-Built at 2019-07-02 15:18:53
-newlib            cc721af61083112b77c06f78b70b46f8a842a812
-pthread-embedded  3477d59ecc313d324977766ece1d4e3ef14e1543
-samples           69d96c15150a6279b3096cf84588da8cc5335ce6
-vita-headers      356a4d248c0e15fc95213c74230060cd2b28beb9
-vita-toolchain    de7e0f565e358d67105ef0b8144b0deed7f549ec

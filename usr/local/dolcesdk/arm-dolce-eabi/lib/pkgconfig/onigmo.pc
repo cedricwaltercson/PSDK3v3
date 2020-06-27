@@ -1,0 +1,14 @@
+prefix=/opt/dolcesdk/arm-dolce-eabi
+exec_prefix=/opt/dolcesdk/arm-dolce-eabi
+libdir=/opt/dolcesdk/arm-dolce-eabi/lib
+includedir=/opt/dolcesdk/arm-dolce-eabi/include
+datarootdir=/opt/dolcesdk/arm-dolce-eabi/share
+datadir=/opt/dolcesdk/arm-dolce-eabi/share
+
+Name: onigmo
+Description: Regular expression library
+Version: 6.0.0
+Requires:
+Libs: -L${libdir} -lonigmo
+Cflags: -I${includedir}
+

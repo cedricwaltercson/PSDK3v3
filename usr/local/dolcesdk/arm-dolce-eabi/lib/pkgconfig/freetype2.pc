@@ -1,0 +1,14 @@
+prefix=/opt/dolcesdk/arm-dolce-eabi
+exec_prefix=/opt/dolcesdk/arm-dolce-eabi
+libdir=/opt/dolcesdk/arm-dolce-eabi/lib
+includedir=/opt/dolcesdk/arm-dolce-eabi/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 22.0.16
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz
+Cflags: -I${includedir}/freetype2
