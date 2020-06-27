@@ -1,0 +1,7 @@
+prefix=/usr/local/vitasdk/arm-vita-eabi
+includedir=${prefix}/include
+
+Name: GLM
+Description: OpenGL Mathematics
+Version: 0.9.8
+Cflags: -I${includedir}

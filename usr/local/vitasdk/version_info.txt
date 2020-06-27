@@ -1,0 +1,6 @@
+Built at 2020-06-27 18:33:42
+newlib            5f72bac408530964cf33d0ac3fedf009dcd55351
+pthread-embedded  fe75d65760f0dff2e29e5d5932d7377bb02bbeab
+samples           be09fe6bf62d619ce47b0d70b8fb36dd167cb0cb
+vita-headers      a97eab6dc5e18d46248111456b2148e319013475
+vita-toolchain    e6795c3f416d3c2cad687c64c75d7e6dbe1508c9

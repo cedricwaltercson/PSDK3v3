@@ -1,0 +1,14 @@
+prefix=/usr/local/vitasdk/arm-vita-eabi
+exec_prefix=/usr/local/vitasdk/arm-vita-eabi
+libdir=/usr/local/vitasdk/arm-vita-eabi/lib
+includedir=/usr/local/vitasdk/arm-vita-eabi/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 22.0.16
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

@@ -20,3 +20,7 @@ cd ddpm
 ./bootstrap-dolcesdk.sh
 ./install-all.sh
 ls
+git clone https://github.com/vitasdk/vdpm
+cd vdpm
+./bootstrap-vitasdk.sh
+./install-all.sh

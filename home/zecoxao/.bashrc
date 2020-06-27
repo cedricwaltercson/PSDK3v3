@@ -190,3 +190,5 @@
 # alias cd=cd_func
 export DOLCESDK=/usr/local/dolcesdk
 export PATH=$DOLCESDK/bin:$PATH # add dolcesdk tool to $PATH
+export VITASDK=/usr/local/vitasdk
+export PATH=$VITASDK/bin:$PATH # add vitasdk tool to $PATH

@@ -1,0 +1,14 @@
+prefix=/usr/local/vitasdk/arm-vita-eabi
+exec_prefix=/usr/local/vitasdk/arm-vita-eabi
+libdir=/usr/local/vitasdk/arm-vita-eabi/lib
+includedir=/usr/local/vitasdk/arm-vita-eabi/include
+datarootdir=/usr/local/vitasdk/arm-vita-eabi/share
+datadir=/usr/local/vitasdk/arm-vita-eabi/share
+
+Name: onigmo
+Description: Regular expression library
+Version: 6.0.0
+Requires:
+Libs: -L${libdir} -lonigmo
+Cflags: -I${includedir}
+
